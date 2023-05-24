@@ -1,0 +1,50 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.hero-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+  margin-right: 10px; /* Add some space between the image and text */
+}
+
+.small-image-left {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 10px; /* Add some space between the image and text */
+  margin-bottom: 10px; /* Add some space between images and text below */
+}
+.small-image-right {
+  width: 30%;
+  height: 30%;
+  float: right;
+  margin-right: 10px; /* Add some space between the image and text */
+  margin-bottom: 10px; /* Add some space between images and text below */
+}
+.btn {
+  display: block;
+  width: 250px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #C30000;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin: 0 auto; /* Centers the button horizontally */
+  margin-top: 20px; /* Adds some space between the button and other elements */
+  cursor: pointer;
+}
+
